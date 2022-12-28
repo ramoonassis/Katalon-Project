@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Testes Funcionais,Chrome 108.0.0.0,,,2022-12-23 17:06:04,2022-12-23 17:06:21,"17,289s",PASSED
+,,,,,,,
+Test Cases/Open the login page,Chrome 108.0.0.0,,,2022-12-23 17:06:04,2022-12-23 17:06:13,"8,819s",PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 108.0.0.0,,,2022-12-23 17:06:05,2022-12-23 17:06:08,"3,693s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/MenuSanduiche""))",Chrome 108.0.0.0,,,2022-12-23 17:06:08,2022-12-23 17:06:09,"0,497s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/BotaoLogin""))",Chrome 108.0.0.0,,,2022-12-23 17:06:09,2022-12-23 17:06:10,"0,842s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/Usuario""))",Chrome 108.0.0.0,,,2022-12-23 17:06:10,2022-12-23 17:06:10,"0,471s",PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/Usuario""), ""John Doe"")",Chrome 108.0.0.0,,,2022-12-23 17:06:10,2022-12-23 17:06:11,"0,771s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/Senha""))",Chrome 108.0.0.0,,,2022-12-23 17:06:11,2022-12-23 17:06:11,"0,454s",PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/Senha""), ""ThisIsNotAPassword"")",Chrome 108.0.0.0,,,2022-12-23 17:06:11,2022-12-23 17:06:12,"0,875s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/Login""))",Chrome 108.0.0.0,,,2022-12-23 17:06:12,2022-12-23 17:06:13,"0,911s",PASSED
+,,,,,,,
+Test Cases/Open the login page and fail,Chrome 108.0.0.0,,,2022-12-23 17:06:13,2022-12-23 17:06:21,"8,192s",PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 108.0.0.0,,,2022-12-23 17:06:14,2022-12-23 17:06:17,"3,438s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/MenuSanduiche""))",Chrome 108.0.0.0,,,2022-12-23 17:06:17,2022-12-23 17:06:17,"0,457s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/BotaoLogin""))",Chrome 108.0.0.0,,,2022-12-23 17:06:17,2022-12-23 17:06:18,"0,868s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/Usuario""), STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2022-12-23 17:06:18,2022-12-23 17:06:19,"0,481s",PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/Usuario""), ""John Doe"")",Chrome 108.0.0.0,,,2022-12-23 17:06:19,2022-12-23 17:06:19,"0,644s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/Senha""))",Chrome 108.0.0.0,,,2022-12-23 17:06:19,2022-12-23 17:06:20,"0,459s",PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/Senha""), ""Error"")",Chrome 108.0.0.0,,,2022-12-23 17:06:20,2022-12-23 17:06:21,"0,754s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/Login""))",Chrome 108.0.0.0,,,2022-12-23 17:06:21,2022-12-23 17:06:21,"0,776s",PASSED

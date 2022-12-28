@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Make Appointment Fail (Leave Date Empty)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1e0fdb2-aa45-42a9-9f08-5bd9a9321406</testCaseGuid>
+</TestCaseEntity>

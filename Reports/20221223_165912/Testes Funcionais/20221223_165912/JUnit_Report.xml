@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Testes Funcionais" time="9.137" tests="1" failures="0" errors="0">
+   <testsuite name="Testes Funcionais" tests="1" failures="0" errors="0" time="9.137" skipped="0" timestamp="2022-12-23 16:59:19" hostname="Ramon - DESKTOP-E548L2I" id="Test Suites/Testes Funcionais">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Ramon\\Katalon Studio\\Sample - Web API Tests\\Reports\\20221223_165912\\Testes Funcionais\\20221223_165912"/>
+         <property name="logFiles" value="C:\\Users\\Ramon\\Katalon Studio\\Sample - Web API Tests\\Reports\\20221223_165912\\Testes Funcionais\\20221223_165912\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ramon - DESKTOP-E548L2I"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="192.168.18.31"/>
+         <property name="sessionId" value="146ccfd91aa62b1e9d8cfcde083c4495"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Open the login page" time="8.848" classname="Test Cases/Open the login page" status="PASSED">
+         <system-out><![CDATA[2022-12-23 16:59:19 - [TEST_CASE][PASSED] - Test Cases/Open the login page: Test Cases/Open the login page
+
+2022-12-23 16:59:19 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2022-12-23 16:59:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-23 16:59:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-23 16:59:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2022-12-23 16:59:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/MenuSanduiche")): Object: 'Object Repository/Page_CURA Healthcare Service/MenuSanduiche' is clicked on
+
+2022-12-23 16:59:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/MenuSanduiche' is clicked on
+
+2022-12-23 16:59:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/BotaoLogin")): Object: 'Object Repository/Page_CURA Healthcare Service/BotaoLogin' is clicked on
+
+2022-12-23 16:59:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/BotaoLogin' is clicked on
+
+2022-12-23 16:59:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/Usuario")): Object: 'Object Repository/Page_CURA Healthcare Service/Usuario' is clicked on
+
+2022-12-23 16:59:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/Usuario' is clicked on
+
+2022-12-23 16:59:25 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/Usuario"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/Usuario'
+
+2022-12-23 16:59:26 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/Usuario'
+
+2022-12-23 16:59:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/Senha")): Object: 'Object Repository/Page_CURA Healthcare Service/Senha' is clicked on
+
+2022-12-23 16:59:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/Senha' is clicked on
+
+2022-12-23 16:59:26 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/Senha"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service/Senha'
+
+2022-12-23 16:59:27 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service/Senha'
+
+2022-12-23 16:59:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/Login")): Object: 'Object Repository/Page_CURA Healthcare Service/Login' is clicked on
+
+2022-12-23 16:59:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-23 16:59:19 - [TEST_SUITE][PASSED] - Testes Funcionais: Test Cases/Open the login page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

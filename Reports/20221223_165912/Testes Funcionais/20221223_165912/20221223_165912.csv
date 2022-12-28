@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Testes Funcionais,Chrome 108.0.0.0,,,2022-12-23 16:59:19,2022-12-23 16:59:28,"9,137s",PASSED
+,,,,,,,
+Test Cases/Open the login page,Chrome 108.0.0.0,,,2022-12-23 16:59:19,2022-12-23 16:59:28,"8,848s",PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 108.0.0.0,,,2022-12-23 16:59:19,2022-12-23 16:59:23,"3,786s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/MenuSanduiche""))",Chrome 108.0.0.0,,,2022-12-23 16:59:23,2022-12-23 16:59:24,"0,506s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/BotaoLogin""))",Chrome 108.0.0.0,,,2022-12-23 16:59:24,2022-12-23 16:59:24,"0,753s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/Usuario""))",Chrome 108.0.0.0,,,2022-12-23 16:59:24,2022-12-23 16:59:25,"0,470s",PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/Usuario""), ""John Doe"")",Chrome 108.0.0.0,,,2022-12-23 16:59:25,2022-12-23 16:59:26,"0,983s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/Senha""))",Chrome 108.0.0.0,,,2022-12-23 16:59:26,2022-12-23 16:59:26,"0,466s",PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/Senha""), ""ThisIsNotAPassword"")",Chrome 108.0.0.0,,,2022-12-23 16:59:26,2022-12-23 16:59:27,"0,650s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/Login""))",Chrome 108.0.0.0,,,2022-12-23 16:59:27,2022-12-23 16:59:28,"0,922s",PASSED
